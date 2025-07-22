@@ -1,0 +1,9 @@
+Started by user Jenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ShellScriptExecutor
+[ShellScriptExecutor] $ /bin/bash /tmp/jenkins4610900363994310107.sh
+[INFO] AGENT_SOLUTION: <none>
+[INFO] Generated random value: 0
+[INFO] Random failure occurred, and no agent solution provided — script will fail.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

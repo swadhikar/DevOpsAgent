@@ -16,12 +16,13 @@ class DBConnection:
     def __init__(self):
         self.db_client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
+    def get_client(self):
+        return self.db_client
+
     def __new__(cls):
         if cls._instance is None:
-            print(f'Creating a new instance')
             cls._instance = object.__new__(cls)
 
-        print(f'Returning same instance')
         return cls._instance
 
     def insert(self, table_name: str, data: dict):
